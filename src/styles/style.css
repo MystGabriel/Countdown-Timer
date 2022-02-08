@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+::selection {
+    background-color: #212121;
+    color: #f0f8ff;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url("../img/White-Nature.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 300;
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.big-text {
+    font-size: 6rem;
+    font-weight: 500;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.2rem;
+}
