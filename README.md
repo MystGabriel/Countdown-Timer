@@ -13,7 +13,7 @@ Countdown done in JavaScript, using basic programming logic. The purpose of the 
 #### Trinity
 > This site was built with the trinity of the Web: HTML, CSS and JavaScript.
 
-#### Date()
+#### Date
 > The Date() object was used to get the date information, to make the necessary calculations for the count
 
 #### Figma
